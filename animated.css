@@ -1,0 +1,117 @@
+body{
+   margin: 0;
+   padding: 0;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header{
+    background-color: rgb(0,0,0,0.1);
+    
+}
+.nav{
+    width:100%;
+    height: 50px;
+    display: inline;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+
+}   
+.nav a{
+    text-decoration: none;
+    color:white;
+    margin-left: 70px;
+    
+}
+.logo{
+    width: 25%;
+    margin-right: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+main{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(20, 54, 139);
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    color:white;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    color:white;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+    color:white;
+    word-spacing: 2px;
+    margin-bottom:25px ;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 12px;
+    border-radius:4px ;
+    outline: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.botton1{
+    background-color: #fff;
+    color: #000;
+}
+.botton1:hover{
+    background: #00b894;
+    color: #fff;
+}
+.botton2{
+    background-color: #00b894;
+    color: #000;
+}
+.botton2:hover{
+    background: #fff;
+    color: #000;
+}
+.change_content:after {
+   content: "";
+   animation : changetext 10s infinite linear;    
+   color: #00b894; 
+}
+
+@keyframes changetext{
+    0% {content: "Darjeeling";}
+    20% {content: "Agra";}
+    35% {content: "Jaipur";}
+    60% {content: "kerala";}
+    80% {content: "delhi";}
+    100% {content: "Mumbai";}
+ }
+
+
+
+
+
+
+
+
+
+
